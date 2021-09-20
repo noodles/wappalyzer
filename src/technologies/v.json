@@ -34,8 +34,9 @@
     },
     "description": "VTEX is an ecommerce software that manages multiple online stores.",
     "headers": {
-      "Server": "^VTEX IO$",
-      "powered": "vtex"
+      "x-powered-by-vtex-cache": "([\\d.]+)\\)?\\;version:\\1",
+      "x-vtex-router-version": "",
+      "x-vtex-product": ""
     },
     "icon": "VTEX.svg",
     "js": {
